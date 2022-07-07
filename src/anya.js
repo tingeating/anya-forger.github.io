@@ -63,7 +63,7 @@ const projects = [
     {
         name: "AI Gomoku Gaming Agent",
         description: "A gomoku gaming agent with Python that I designed in NTNU CSIE Camp.",
-        image: "https://www.anime-internet.com/content/images/2022/04/spyxfamilyanime.jpg"
+        image: "https://spy-family.net/assets/img/special/wall01.jpg"
         url: "https://github.com/anya-forger",
     },
     {
