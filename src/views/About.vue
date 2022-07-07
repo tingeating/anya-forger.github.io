@@ -41,16 +41,16 @@ function update(delay = 0) {
             </transition>
             <Typing
                 :text="about"
-                :speed="25"
+                :speed="20"
                 v-if="step > 0"
                 @done="step++"
                 class="flex-1 md:mx-4"
-                @click="open('https://spy-family.net/')"
+                @click="open('https://www.google.com.tw/?hl=zh_TW')"
             />
         </div>
         <Typing
             text="My Pictures"
-            :speed="50"
+            :speed="20"
             v-if="step > 1"
             @done="step++"
             class="mt-4 block text-lg"
@@ -74,7 +74,7 @@ function update(delay = 0) {
                         v-show="step > 1 + i"
                         :src="pic.avatars[i]"
                         class="w-full cursor-pointer transition-all hover:scale-125"
-                        @click="open('https://spy-family.net/#tSpecial')"
+                        @click="open('https://www.google.com.tw/?hl=zh_TW')"
                     />
                 </transition>
             </div>

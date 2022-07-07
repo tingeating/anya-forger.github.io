@@ -2,7 +2,7 @@ const pic = {
     uniform: "https://spy-family.net/assets/img/common/header_bottomimg_3.png",
     icecream: "https://spy-family.net/assets/img/common/header_bottomimg_3_family.png",
     uniform_large: "https://spy-family.net/assets/img/top/chara_anya_1.png",
-    casual_large: "https://spy-family.net/assets/img/top/chara_anya_2.png",
+    casual_large: "https://cdn.bella.tw/files-20220604/FT5OGggVIAAHxhF.jpeg",
     avatars: [],
 };
 
@@ -56,15 +56,14 @@ const projects = [
     {
         name: "My Portfolio Website",
         description: "A portfolio website for myself that I developed in NTNU CSIE Camp.",
-        image: "https://spy-family.net/assets/img/special/wall02.jpg",
+        image: "https://i0.wp.com/www.animegeek.com/wp-content/uploads/2022/05/The-Forger-family-in-the-park-sightseeing.jpg?fit=1200%2C675&ssl=1",
         skills: ["Vue", "Tailwind", "Node.js", "GitHub"],
         url: "https://github.com/anya-forger/anya-forger.github.io",
     },
     {
         name: "AI Gomoku Gaming Agent",
         description: "A gomoku gaming agent with Python that I designed in NTNU CSIE Camp.",
-        image: "https://spy-family.net/assets/img/special/wall01.jpg",
-        skills: ["Python", "Algorithm", "Gomoku"],
+        image: "https://www.anime-internet.com/content/images/2022/04/spyxfamilyanime.jpg"
         url: "https://github.com/anya-forger",
     },
     {

@@ -20,16 +20,16 @@ const width = screen.width;
                 <Typing v-if="step > 0" @done="step++" :text="titles.join(', ')" :speed="60" />
                 <a
                     v-if="step > 1"
-                    class="mt-8 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-                    href="https://github.com/anya-forger"
+                    class="mt-8 flex items-center text-lg text-green-100 transition-all hover:text-emerald-100"
+                    href="https://mobile.twitter.com/_anya_forger"
                     target="_blank"
                 >
                     <MdiGithub class="mr-1 inline-block" />
-                    <Typing v-if="step > 1" @done="step++" text="GitHub" :speed="60" />
+                    <Typing v-if="step > 1" @done="step++" text="twitter" :speed="60" />
                 </a>
                 <a
                     v-if="step > 2"
-                    class="mt-4 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
+                    class="mt-4 flex items-center text-lg text-green-100 transition-all hover:text-emerald-100"
                     href="https://www.instagram.com/spy_family_official/"
                     target="_blank"
                 >
