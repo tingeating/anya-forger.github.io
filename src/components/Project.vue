@@ -37,7 +37,7 @@ let step = ref(0);
                 @done="step++"
             ></Typing>
             <Typing
-                class="block text-sm text-gray-400 md:text-base"
+                class="block text-sm text-blue-100 md:text-base"
                 :text="project.skills.join(', ')"
                 :speed="40"
                 v-if="step > 1"
