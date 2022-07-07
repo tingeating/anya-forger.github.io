@@ -30,7 +30,7 @@ let step = ref(0);
                 @done="step++"
             ></Typing>
             <Typing
-                class="mb-2 block text-sm text-gray-600 md:text-base"
+                class="mb-2 block text-sm text-sky-50 md:text-base"
                 :text="project.description"
                 :speed="40"
                 v-if="step > 0"
